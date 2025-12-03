@@ -33,8 +33,8 @@ export function ContactSection() {
   }
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/Tanishka534", label: "GitHub" },
-    { icon: Linkedin, href: "https://www.linkedin.com/in/tanishka-singh-8b1892258/", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/AnkurDhattarwal", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/ankur-dhattarwal/", label: "LinkedIn" },
   ]
 
   return (
@@ -160,7 +160,7 @@ export function ContactSection() {
                   <Mail className="text-purple-400" size={24} />
                   <div>
                     <div className="text-white font-medium">Email</div>
-                    <div className="text-gray-300">singhtanishka313@gmail.com</div>
+                    <div className="text-gray-300">ankurdhattarwal2005@gmail.com</div>
                   </div>
                 </motion.div>
 
@@ -171,7 +171,7 @@ export function ContactSection() {
                   <Phone className="text-purple-400" size={24} />
                   <div>
                     <div className="text-white font-medium">Phone</div>
-                    <div className="text-gray-300">+91 8302818709</div>
+                    <div className="text-gray-300">+91 7742216506</div>
                   </div>
                 </motion.div>
 
@@ -222,7 +222,7 @@ export function ContactSection() {
                 Download my latest resume to learn more about my experience and skills.
               </p>
               <motion.a
-                href="https://drive.google.com/file/d/1BUz8WmcVisgiKi-loZ4xaNN85xDWllkE/view?usp=sharing"
+                href="https://drive.google.com/file/d/1FtPlTHUbvVUXbdiEGaE-v9ZYQlbN9tbb/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-yellow-500 to-orange-600 text-white font-semibold rounded-lg hover:from-yellow-600 hover:to-orange-700 transition-colors"

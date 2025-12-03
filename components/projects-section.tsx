@@ -10,49 +10,37 @@ export function ProjectsSection() {
   const projects = [
     {
       id: 1,
-      title: "CoEdit",
-      description: "Developed a multi-user coding environment enabling developers to share code and resources concurrently, improving project alignment and communication.",
-      image: "https://i.ibb.co/QFGnC4Hk/Screenshot-2025-10-13-at-12-43-59-PM.png",
-      tech: ["React.js", "TypeScript", "Node.js", "Socket.io", "Express.js"],
-      github: "https://github.com/Tanishka534/COEDIT",
-      demo: "https://demo.com",
+      title: "Universal Clipboard",
+      description: "Created a cross-platform clipboard sync tool that works on Android, Windows, and Linux using Python and Firebase.",
+      image: "https://i.ibb.co/RRWRHDK/Screenshot-2025-12-04-at-2-49-11-AM.png",
+      tech: ["Python" , "Firebase", "Realtime", "Database"],
+      github: "https://github.com/AnkurDhattarwal/universal-clipboard",
+      demo: "#",
       details:
-        ["Implemented functionality for creating and sharing unique room IDs, facilitating easy access and secure collaboration across coding sessions. ", "Developed a collaborative drawing board with real-time user interaction, allowing seamless transitions between drawing and coding modes while supporting simultaneous contributions from multiple users."],
+        ["Created a cross-platform clipboard sync tool that works on Android, Windows, and Linux using Python and Firebase. It syncs clipboard content over the internet, completely wirelessly, without needing Bluetooth. Built a smart change-detection system to avoid unnecessary uploads and keep syncing smooth and fast. The tool can be placed in the root of any device and automatically starts running in the background when the device is powered on."],
     },
     {
       id: 2,
-      title: "ClimaMind",
-      description: "Built captivating visualizations, integrated advanced features for",
-      image: "https://i.ibb.co/KpT3DTw2/Screenshot-2025-10-13-at-12-46-19-PM.png",
-      tech: ["Python", "ML", "AI", "APIs", "Javascript", "CSS", "HTML"],
-      github: "https://github.com/Tanishka534/ClimaMind_Environmental-Data-Monitoring",
-      demo: "https://demo.com",
+      title: "Pett App",
+      description: "Built a full-stack pet management app using JWT authentication and MongoDB",
+      image: "https://i.ibb.co/QvxW6Jhj/Screenshot-2025-12-04-at-2-49-48-AM.png",
+      tech: ["React.js", "Express.js", "Node.js", "MongoDB", "JWT", "Bcrypt", "Mongoose", "Multer"],
+      github: "https://github.com/AnkurDhattarwal/pettapp",
+      demo: "https://pet-app-d6d34.web.app/home",
       details:
-        ["Built captivating visualizations, integrated advanced features for identifying flowers, assessing plant health, and providing valuable insights on soil types through Satellite imaging, empowering users to make informed decisions and take action for a sustainable future.", "Leveraged AI and ML cutting-edge technologies to develop ClimaMind, a dynamic website presenting an interactive map showcasing crucial environmental data, air quality, water pollution, deforestation rates, climate patterns, weather conditions."]
+        ["Built a full-stack pet management app using JWT authentication and MongoDB. Added an easy feature for pet owners to upload and edit their pet profiles, which handled 500+ image uploads every week and increased platform activity by 40%. Also connected the app to Google Search Console to improve SEO and online visibility."]
     },
     {
       id: 3,
-      title: "DesTecho",
-      description: "Managed the upload and display of UI/UX designs on the marketplace, offering a diverse range of options for users to explore and purchase.",
-      image: "https://i.ibb.co/hxG54QXV/Screenshot-2025-10-13-at-12-45-26-PM.png",
+      title: "Chit-Chat",
+      description: "Built a real-time chat application where users can send and receive messages instantly.",
+      image: "https://i.ibb.co/8LCM4Bh1/Screenshot-2025-12-04-at-2-50-36-AM.png",
       tech: ["React.js", "Node.js", "Express.js", "Firebase", "Tailwind CSS"],
-      github: "https://github.com/Tanishka534/DESTECHO",
-      demo: "https://demo.com",
+      github: "https://github.com/AnkurDhattarwal/Chit-Chat",
+      demo: "#",
       details:
-        ["Implemented a subscription model granting access to premium designs, allowing users to stay updated with the latest trends.", "Enhanced the user interface for design submissions and free design workshops for everyone to dive into the world of designs."]
-    },
-    {
-      id: 4,
-      title: "ClubManagementSystem",
-      description: "The ClubManagementSystem is a web-based application designed to showcase and manage all clubs at IIIT Lucknow. This system provides a centralized platform for students, faculty, and administrators to view, join, and manage various clubs within the institution.",
-      image: "https://i.ibb.co/spXFFZ1F/Screenshot-2025-10-13-at-12-46-59-PM.png",
-      tech: ["SpringBoot", "Java", "MySQL", "React.js"],
-      github: "https://github.com/Tanishka534/CMS",
-      demo: "https://demo.com",
-      details:
-        "The ClubManagementSystem is a web-based application designed to showcase and manage all clubs at IIIT Lucknow. This system provides a centralized platform for students, faculty, and administrators to view, join, and manage various clubs within the institution.",
-    },
-  
+        ["Built a real-time chat application where users can send and receive messages instantly. Added features like user login, message history, and typing indicators to make conversations smooth. Designed the app to work across devices and keep chats synced securely."]
+    }
   ]
 
   return (

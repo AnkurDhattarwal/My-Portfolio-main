@@ -6,7 +6,7 @@
 
 // export function HeroSection() {
 //   const [text, setText] = useState("")
-//   const fullText = "Hi, I'm Tanishka Singh – Developer. Creator. Competitor."
+//   const fullText = "Hi, I'm  Ankur – Developer. Creator. Competitor."
 
 //   useEffect(() => {
 //     let i = 0
@@ -189,7 +189,7 @@ import { ChevronDown } from "lucide-react"
 
 export function HeroSection() {
   const [text, setText] = useState("")
-  const fullText = "Hi, I'm Tanishka Singh – Developer. Creator. Competitor."
+  const fullText = "Hi, I'm Ankur – Developer. Creator. Competitor."
 
   useEffect(() => {
     let i = 0
@@ -206,8 +206,8 @@ export function HeroSection() {
       
       {/* Profile Image */}
       <motion.img
-        src="https://media.licdn.com/dms/image/v2/D5603AQGSx07L0TF8ig/profile-displayphoto-shrink_400_400/B56ZUj.Ga1HQAo-/0/1740065240243?e=1762992000&v=beta&t=lmitcc9N-0B_85UgomLGxNmLnOKjVvFb1uq59jkmey4" // ← replace with your image path, e.g. /me.png or an external URL
-        alt="Tanishka Singh"
+        src="https://media.licdn.com/dms/image/v2/D5635AQHl4gHPghu6zQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1729436592013?e=1765400400&v=beta&t=LT0KjRPvtMkNEen2h3lSPq9Mt4muwtOZ0m-_m6btWx8" // ← replace with your image path, e.g. /me.png or an external URL
+        alt="Ankur Dhattarwal"
         className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-cyan-400 shadow-lg mb-8"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -244,7 +244,7 @@ export function HeroSection() {
 
       {/* CTA: Resume */}
       <motion.a
-        href="https://drive.google.com/file/d/1BUz8WmcVisgiKi-loZ4xaNN85xDWllkE/view?usp=sharing"
+        href="https://drive.google.com/file/d/1FtPlTHUbvVUXbdiEGaE-v9ZYQlbN9tbb/view"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-yellow-500 to-orange-600 text-white font-semibold rounded-lg hover:from-yellow-600 hover:to-orange-700 transition-colors"

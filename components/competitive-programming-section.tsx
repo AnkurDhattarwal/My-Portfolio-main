@@ -19,38 +19,38 @@ export function CompetitiveProgrammingSection() {
   const platforms = [
     {
       name: "Codeforces",
-      handle: "tanishkas534",
-      maxRating: 1579,
-      currentRating: 1579,
-      problemsSolved: 144,
+      handle: "Alexey_Parsh",
+      maxRating: 1740,
+      currentRating: 1551,
+      problemsSolved: 600,
       color: "from-blue-400 to-blue-600",
       icon: "🔵",
     },
     {
       name: "CodeChef",
-      handle: "tanishka5singh",
-      maxRating: 1631,
-      currentRating: 1631,
+      handle: "ankur_ankur",
+      maxRating: 1963,
+      currentRating: 1963,
       problemsSolved: 50,
       color: "from-yellow-400 to-yellow-600",
       icon: "🟡",
     },
     {
       name: "LeetCode",
-      handle: "TanishkaS534",
-      maxRating: 0,
-      currentRating: 0,
-      problemsSolved: 125,
+      handle: "DarkChemist",
+      maxRating: 1926,
+      currentRating: 1926,
+      problemsSolved: 500,
       color: "from-orange-400 to-orange-600",
       icon: "🟠",
     },
   ]
 
   const achievements = [
-    { title: "Global Rank #197", platform: "Codeforces Round 1003", date: "2025" },
-    { title: "Global Rank #857", platform: "Codechef Starter 146", date: "2024" },
-    { title: "Specialist", platform: "Codeforces", date: "2025" },
-    { title: "3⭐", platform: "Codechef", date: "2024" },
+    { title: "Global Rank #345", platform: "Codeforces Round 776", date: "2025" },
+    { title: "Global Rank #29", platform: "Codechef Starter 215", date: "2025" },
+    { title: "Expert", platform: "Codeforces", date: "2025" },
+    { title: "4⭐", platform: "Codechef", date: "2024" },
     { title: "Knight", platform: "LeetCode", date: "2024" },
   ]
 

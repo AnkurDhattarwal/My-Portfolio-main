@@ -43,7 +43,7 @@ export function Navigation() {
         <div className="backdrop-blur-md bg-black/20 border border-cyan-500/30 rounded-2xl px-6 py-3">
           <div className="flex items-center justify-between">
             <motion.div className="text-xl font-orbitron font-bold text-cyan-400" whileHover={{ scale: 1.05 }}>
-              Tanishka.Dev
+              Ankur.Dev
             </motion.div>
 
             <div className="hidden md:flex items-center space-x-8">

@@ -321,20 +321,12 @@ export function AchievementsSection() {
   const achievements = [
     
     {
-      id: 9,
+      id: 8,
       title: "Google Student Launchpad Upskilling Program",
       date: "2023",
       description: "Successfully completed the program and earned a certificate.",
       type: "education",
       icon: "📜",
-    },
-    {
-      id: 8,
-      title: "Intuit Inc. Software Engineering Intern",
-      date: "May 2025 - July 2025",
-      description: "Built a Preview Simulator, enhanced UI responsiveness, and improved shareable link.",
-      type: "milestone",
-      icon: "💻",
     },
     {
       id: 7,
@@ -346,9 +338,9 @@ export function AchievementsSection() {
     },
     {
       id: 6,
-      title: "Full-Stack Development Intern",
+      title: "Senior Web Development Member, Axios",
       date: "2025",
-      description: "Full Stack Developer Intern at Innomatics Research Labs",
+      description: "Played a key role in developing and maintaining 5+ high-impact club projects, and mentored over 100 junior members by teaching web technologies, reviewing their work, and helping them grow into confident contributors.",
       type: "education",
       icon: "📜",
     },
@@ -361,36 +353,12 @@ export function AchievementsSection() {
       icon: "🤝",
     },
     {
-      id: 10,
-      title: "Member of Estrella",
-      date: "Dec 2023 – Mar 2024",
-      description: "Coordinated and performed in college events, enhancing campus culture and increasing participation.",
-      type: "milestone",
-      icon: "🎭",
-    },
-    {
       id: 5,
-      title: "Competitive Programming Specialist",
+      title: "Competitive Programming Expert",
       date: "2025",
-      description: "Achieved Specialist rating on Codeforces",
+      description: "Achieved Expert rating on Codeforces",
       type: "achievement",
       icon: "🧠",
-    },
-    {
-      id: 4,
-      title: "Google Girls Hackathon",
-      date: "2025",
-      description: "Semi Finalist, presented innovative AI solution",
-      type: "recognition",
-      icon: "🎤",
-    },
-    {
-      id: 3,
-      title: "GirlScript Summer of Code 2023",
-      date: "2023",
-      description: "Selected to contribute to the open-source initiative GirlScript Summer of Code 2023",
-      type: "milestone",
-      icon: "⭐",
     },
     {
       id: 2,

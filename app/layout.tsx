@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const orbitron = Orbitron({ subsets: ["latin"], variable: "--font-orbitron" })
 
 export const metadata: Metadata = {
-  title: "Tanishka Singh - Portfolio",
+  title: "Ankur Dhattarwal - Portfolio",
   description: "Developer. Creator. Competitor. Welcome to the future of web development.",
   keywords: ["developer", "portfolio", "web development", "competitive programming"],
     generator: 'v0.dev'

@@ -18,7 +18,7 @@ export function Footer() {
             transition={{ duration: 0.8 }}
             className="space-y-4"
           >
-            <h3 className="text-2xl font-orbitron font-bold text-cyan-400">Tanishka.Dev</h3>
+            <h3 className="text-2xl font-orbitron font-bold text-cyan-400">Ankur.Dev</h3>
             <p className="text-gray-300 leading-relaxed">
               Crafting digital experiences that push the boundaries of what's possible. Always exploring new
               technologies and methodologies.
@@ -86,7 +86,7 @@ export function Footer() {
             <Coffee size={16} className="text-yellow-500" />
           </div> */}
 
-          <div className="text-gray-300 text-sm">© {currentYear} Tanishka Singh. All rights reserved.</div>
+          <div className="text-gray-300 text-sm">© {currentYear} Ankur Dhattarwal. All rights reserved.</div>
         </motion.div>
 
         {/* Easter Egg - Time Machine */}

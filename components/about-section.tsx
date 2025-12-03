@@ -37,11 +37,9 @@ export function AboutSection() {
   const timeline = [
     { year: "2022", event: "Began my coding journey at IIIT Lucknow", description: "Discovered a deep interest in problem-solving and technology while pursuing B.Tech in CS & Business." },
     { year: "2022", event: "Competitive Programming Enthusiast", description: "Entered the global competitive-coding arena, reaching Speciaist and 4-Star on CodeChef." },
-    { year: "2023", event: "Built My First Full-Stack App", description: "Created the Club Management System, connecting student communities through a responsive React + Spring Boot platform." },
-    { year: "2023 - 2024", event: "Open Source & Hackathon", description: "Contributed to Hacktoberfest 2023 and reached the Google Girls Hackathon Semifinals, sharpening collaboration & innovation." },
-    { year: "2024", event: "Developed CoEdit — a Real-Time Collaboration Tool", description: "Engineered a secure multi-user editor using React, Node.js & Socket.io for seamless real-time coding and drawing." },
-    { year: "Jan - Mar 2025", event: "Full-Stack Development Intern @ Innomatics Research Labs", description: "Delivered end-to-end web apps with React, Node, Express & MongoDB; implemented auth flows and REST APIs." },
-    { year: "May - July 2025", event: "Software Engineering Intern @ Intuit", description: "Built a Preview Simulator in OICMS; implemented URL compression API (+60% readability), enhanced UI responsiveness & collaboration." },
+    { year: "2023", event: "Built My First Full-Stack App", description: "Created the Pett App, using JWT authentication and MongoDB, Also connected the app to Google Search Console to improve SEO and online visibility." },
+    { year: "2023 - 2024", event: "Open Source & Hackathon", description: "Contributed to Hacktoberfest 2023 and completed the Google cloud arcade and student upskill program, sharpening collaboration & innovation." },
+    { year: "2024", event: "Developed Universal Clipboard — a cross-platform clipboard sync tool", description: "It syncs clipboard content over the internet, completely wirelessly, without needing Bluetooth. Built a smart change-detection system to avoid unnecessary uploads and keep syncing smooth and fast." },
     { year: "2025 - Present", event: "Evolving as a Full-Stack Developer", description: "Exploring Next.js, AI APIs & modern architectures to craft human-centered digital experiences." },
   ]
 
